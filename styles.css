@@ -1,0 +1,192 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1f24;
+    color: white;
+}
+
+/* Header & Navigation */
+header {
+    display: flex; /* Use flexbox for header */
+    justify-content: space-between; /* Space between title and nav */
+    align-items: center;
+    background-color: #1f2b38;
+    padding: 1rem;
+}
+
+.portfolio-title {
+    font-size: 24px; /* Larger font size for title */
+    margin-left: 20px; /* Space from left */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px; /* Space from right */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Styling */
+.section {
+    padding: 4rem 2rem;
+}
+
+#home {
+    background-color: #0e1621;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    text-align: left; /* Align text to the left for Home */
+}
+
+.home-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Space between image and intro */
+    align-items: center;
+}
+
+.profile {
+    flex: 0 0 40%; /* Use 40% width for the profile section */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px; /* Increased width */
+    height: 200px; /* Increased height */
+    object-fit: cover;
+}
+
+.intro {
+    flex: 1; /* Use remaining space */
+    padding-left: 2rem; /* Add space between image and text */
+}
+
+.typed-text {
+    font-size: 1.5rem;
+    color: #c5d4e1;
+}
+
+/* About Section */
+#about {
+    background-color: #15202b;
+    color: #e6ecf0;
+    text-align: center; /* Center text for About */
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto; /* Center the paragraph */
+}
+
+/* Services Section */
+#services {
+    background-color: #192734;
+    text-align: center; /* Center text for Services */
+}
+
+.service-list {
+    display: flex;
+    justify-content: center; /* Center items */
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: #22333b;
+    border-radius: 10px;
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #0e1621;
+    text-align: center; /* Center text for Contact */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto; /* Center form within the section */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #22333b;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4a4a;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2b38;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+/* Download CV Button */
+.download-cv {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b; /* Orange color */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.download-cv:hover {
+    background-color: #ff4a4a;
+}
